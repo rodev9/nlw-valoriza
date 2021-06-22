@@ -1,21 +1,14 @@
+import 'reflect-metadata'
 import express from 'express'
+
+import { router } from './routes'
+
+import './database'
 
 const app = express()
 
-/**
- * GET    => Buscar
- * POST   => Criar
- * PUT    => Alterar
- * DELETE => Remover
- * PATCH  => Alterar uma informação específica
- */
+app.use(express.json())
 
-app.get('/', (req, res) => {
-  return res.send('Hello World')
-})
-
-app.post('/post', (req, res) => {
-  return res.send('Hello World POST')
-})
+app.use(router)
 
 app.listen(3000, () => console.log('Server started'))
