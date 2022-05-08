@@ -41,4 +41,4 @@ Por fim, a aplicação estará disponível em `http://localhost:3000`
 Este projeto está sob a licença MIT. Vê o ficheiro [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
-Feito com 🧡 by Romilo na [NLW Together](https://nextlevelweek.com/)
+Feito com 🧡 by Rodrigo na [NLW Together](https://nextlevelweek.com/)
